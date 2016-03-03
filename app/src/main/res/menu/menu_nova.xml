@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:nota = "http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/nitem1"
+        android:icon="@drawable/volta"
+        nota:showAsAction="ifRoom"
+        android:title="Voltar" />
+    <item android:id="@+id/nitem2"
+        android:icon="@drawable/salva"
+        nota:showAsAction="ifRoom"
+        android:title="Salvar" />
+</menu>
